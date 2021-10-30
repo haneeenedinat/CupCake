@@ -1,0 +1,70 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand{
+    background-color: pink;
+    font-weight: 700;
+}
+
+img{
+    margin-right: 2em;
+}
+span.welcome{
+    background-color:black;
+    color:white;
+    padding:10px;
+}
+
+#submit{
+ background-color: #0078ff;
+ border-style: none;
+ border-radius: 0.3em;
+ color:white;
+ width: 7vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input,select{
+
+    border: #f1f1f1 3px solid;
+    height: 7vh;
+    border-radius: 0.3em;
+}
+
+select {
+    padding:0.5em;
+	background-repeat: no-repeat;
+}
+
+
+i{
+
+    position:relative;
+     left: 31.5em; 
+    top:2.5em; 
+   
+    /* display: flex; */
+   visibility: hidden;
+
+}
+
+#incorrect1,#incorrect2,#incorrect3,#incorrect4,#incorrect5{
+    color:red;
+}
+
+#correct1,#correct2,#correct3,#correct4,#correct5{
+    color:rgb(76, 160, 76);
+}
+
+
+
+
+
+
